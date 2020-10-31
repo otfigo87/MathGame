@@ -6,6 +6,7 @@
     border: 1px solid hsl(0, 0%, 78%);
     border-right: none;
     position: relative;
+    margin-top: 50px;
 }
 
 .progress-inner {
@@ -71,4 +72,39 @@ body.overlay-is-open .main-ui {
 
 .problem {
     text-align: center;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightsalmon;
+}
+
+.our-form {
+    text-align: center;
+    
+}
+.our-field {
+    width: 100px;
+    height:20px ;
+}
+button {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 20%;
+    background-color: lightsalmon;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 900;
+    border: none;
+}
+button:hover {
+    background-color: lightseagreen;
+    
+}
+
+p { 
+    text-align: center;
+    font-size: 1.5em;
+}
+span {
+    color: red;
 }
